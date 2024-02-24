@@ -50,7 +50,7 @@ uint64_t sumPrime(uint64_t hbound) {
                 count++;
                 break;
             }
-        } 
+        }
         if (count == 0) sum += j;
     }
     return sum;
